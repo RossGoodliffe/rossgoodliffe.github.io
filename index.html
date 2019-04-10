@@ -1,8 +1,91 @@
-<html>
-    <head>
-        <title>My Portfolio</title>
-    </head>
-    <body>
-        <p>This is my Portfolio</p>
-    </body>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <title>Ross Goodliffe</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+            <div>
+                <h1 class="anim-typewriter">Ross Goodliffe</h1>
+            </div>
+            <div id="hidden">
+                <p>Junior Web Developer</p>
+            </div>
+            <div id="social">
+                <a href="https://github.com/RossGoodliffe"><img src="images/github-64.png" alt="github logo"></a>
+                <a href="#"><img src="images/link1-64.png" alt="github logo"></a>
+                <a href="#"><img src="images/twitter-64.png" alt="github logo"></a>
+                <a href="#"><img src="images/email1-64.png" alt="github logo"></a>
+            </div>
+
+        </section>
+
+        <div class="clr"></div>
+
+        <section id="about">
+            <h1 id="about-head">About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia et vero nostrum, qui odio eaque!</p>
+        </section>
+
+        <div class="clr"></div>
+
+        <section id="portfolio">
+            <h1>Portfolio</h1>
+            <div class="grid-container">
+                
+                <div class="box1">Box 1</div>
+                <div class="box2">Box 2</div>
+                <div class="box3">Box 3</div>
+                <div class="box4">Box 4</div>
+                
+            </div>
+        
+        </section>
+
+        <div class="clr"></div>
+
+        <section id="contact">
+            <div class="contact-area">
+                <h1>Contact</h1>
+                    <form>
+                        <div class="contact-form">
+                            <label>First Name</label>
+                            <input type="text" name="fname" placeholder="First Name">
+                            <label>Surname</label>
+                            <input type="text" name="sname" placeholder="Surname">
+                            <label>Email Address</label>
+                            <input type="text" name="email" placeholder="Email">
+                            <label>Message</label>
+                            <input type="textarea" name="message" placeholder="Message">
+                            <input type="button" type="submit" value="Submit" name="">
+                        </div>
+                    </form>
+            </div>
+        </section>
+
+    </div> <!--End of Container-->
+
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+
+
 </html>
