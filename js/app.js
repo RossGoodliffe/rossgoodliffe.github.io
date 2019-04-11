@@ -44,12 +44,23 @@ displayGreeting = () => {
 //run greeting function on page load
 window.onload = displayGreeting;
 
+//thank you for submitting form
+thankYou = () => {
+    document.getElementById("contact").innerHTML = "<p>Thank you for getting in contact! I will be in touch shortly</p>";
+
+    // let button = document.createElement('button');
+    // button.innerHTML = "Send another email";
+    // document.getElementById("contact").appendChild(button);
+
+    // button.classList.add("send-another");
+
+
+}
 
 //alert for sending contact form
 contactAlert = () => {
     alert("email has been sent")
-
-    document.getElementById("contact").reset();
+    thankYou();
 }
 
 
