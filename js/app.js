@@ -48,6 +48,8 @@ window.onload = displayGreeting;
 //alert for sending contact form
 contactAlert = () => {
     alert("email has been sent")
+
+    document.getElementById("contact").reset();
 }
 
 
