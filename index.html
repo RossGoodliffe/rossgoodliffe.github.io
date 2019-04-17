@@ -64,7 +64,6 @@
         <section id="contact">
             <div class="contact-area">
                 <h1>Contact</h1>
-
                     <form action="https://formspree.io/rossgoodliffe@gmail.com" method="POST">
                             <label>First Name</label>
                             <input type="text" name="fname" placeholder="First Name">
@@ -73,7 +72,8 @@
                             <label>Email Address</label>
                             <input type="text" name="_replyto" placeholder="Email">
                             <label>Message</label>
-                            <input type="textarea" name="message" placeholder="Message">
+                            <!--<input type="textarea" name="message" placeholder="Message">-->
+                            <textarea class="contact-text" name="message" rows="3" cols="10" placeholder="Type your message here!"></textarea>
                             <input class="contact-button" type="submit" value="Send" onclick="contactAlert()">
                             <input type="hidden" name="_next" value="rossgoodliffe.github.io#contact"/>                    
                     </form>
