@@ -153,6 +153,7 @@ body {
   flex-direction: row;
 
   width: 100%;
+  height: auto;
 }
 
 .about-main {
@@ -209,15 +210,8 @@ body {
 
   width: 75%;
 
-  /* 
-  Removed to make height auto for reponsiveness
-  grid-auto-rows: 200px; */
-
   height: auto;
   
-
-  
-  border: 2px red solid;
 }
 
 
@@ -225,30 +219,36 @@ body {
   display: flex;
   flex-direction: column;
 
-
-  
-  border: 2px blue solid;
 }
 
 .grid-content {
   height: 85%;
-
-
-  border: 2px yellow solid;
 }
+
 
 .grid-area a{
   text-decoration:none;
 }
 
 .grid-link {
+  background-color: #7A8CA5;
+
+  border-radius: 5px;
+
+  color: #fff;
   
-  border: 2px green solid;
-  
-  color: red;
   font-family: 'Anonymous Pro', monospace;
   text-align: center;
 }
+
+.grid-link:hover {
+  color: skyblue;
+
+  background-color: #262C3B;
+}
+
+
+
 
 
 
@@ -272,6 +272,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 75%;
+  height: auto;
 }
 
 .contact-area form {
@@ -309,7 +310,7 @@ body {
 
 .contact-text {
   width: 80%;
-  height: 150px;
+  height: 100px;
 
   padding: 1rem;
   margin-bottom: 1rem;
