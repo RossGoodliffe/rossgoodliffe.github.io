@@ -35,7 +35,7 @@ displayGreeting = () => {
     } else if (currentTime > 0) {
     greeting = "Good Morning!"
     } else {
-    greeting = "Welcome!"
+    greeting = "Hello!"
     }
 
     let about = document.getElementById("about-head").innerHTML = greeting + " My name is Ross Goodliffe";
@@ -48,19 +48,7 @@ window.onload = displayGreeting;
 thankYou = () => {
     document.getElementById("contact").innerHTML = "<p>Thank you for getting in contact! I will be in touch shortly</p>";
 
-    // let button = document.createElement('button');
-    // button.innerHTML = "Send another email";
-    // document.getElementById("contact").appendChild(button);
-
-    // button.classList.add("send-another");
-
-
 }
 
-//alert for sending contact form
-contactAlert = () => {
-    alert("email has been sent")
-    thankYou();
-}
 
 

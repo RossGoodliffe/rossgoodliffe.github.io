@@ -34,19 +34,20 @@
                 <a href="mailto:rossgoodliffe@gmail.com" target="_blank"><img src="images/email-64.png" alt="email me"></a>
                 <a href="#"><img src="images/pdf-64.png" alt="pdf logo"></a>
             </div>
-
-        </section>
+        </section> <!-- End of Home Section-->
 
         <div class="clr"></div>
 
         <section id="about">
             <div class="blank-space"></div>
-            <h1 id="about-head"></h1>
+            <div class="about-image">
+                <img src="images/ross-circle.png" alt="picture of Ross">
+            </div>
+            <h1 id="about-head"></h1><!--Heading content populated from JS-->
                 <div class="about-container">
-
                     <div class="about-main">
                         <p>I am interested in both front and back end web development and would ideally like a position that allows me to develop my skills in both areas.</p>
-                        <p>Having completed a BcS in Computing (Web Technology and Security) I am now currently looking for a Junior Web Developer position.</p>
+                        <p>Having completed a HND in Computing (Web Technology and Security) I am now currently looking for a Junior Web Developer position.</p>
                         <p>I enjoy learning new things and keeping up to date with new tech. Other hobbies include playing guitar, gaming and traveling.</p>
                     </div>
 
@@ -62,11 +63,8 @@
                                 <li>Oracle Databases</li>
                             </ul>
                     </div>
-
-                </div>
-
-                
-        </section>
+                </div> <!-- End of About Container-->       
+        </section> <!--End of About Section-->
 
         <div class="clr"></div>
 
@@ -92,7 +90,7 @@
                         <p>In this assignment we needed to create TCP & UDP clients/servers that were able to respond to eachother programmed in C# and Java </p>
                     </div>
 
-                    <a href="#">
+                    <a href="https://github.com/RossGoodliffe/TCP-UDP">
                         <div class="grid-link">
                             <p>view code</p>
                         </div>
@@ -122,9 +120,7 @@
                         </div>
                     </a>    
                 </div>
-
             </div> <!--End of Grid Container-->
-        
         </section> <!--End of Portfolio Section-->
 
         <div class="clr"></div>
@@ -141,23 +137,16 @@
                             <label>Email Address</label>
                             <input type="text" name="_replyto" placeholder="Email">
                             <label>Message</label>
-                            <!--<input type="textarea" name="message" placeholder="Message">-->
                             <textarea class="contact-text" name="message" rows="3" cols="10" placeholder="Type your message here!"></textarea>
-                            <input class="contact-button" type="submit" value="Send" onclick="contactAlert()">
+                            <input class="contact-button" type="submit" value="Send" onclick="thankYou()">
                             <input type="hidden" name="_next" value="rossgoodliffe.github.io#contact"/>                    
                     </form>
-
             </div>
-        </section>
+        </section> <!--End of Contact Section-->
 
     </div> <!--End of Container-->
 
-
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="js/app.js"></script>
-
 </body>
-
-
-
 </html>
