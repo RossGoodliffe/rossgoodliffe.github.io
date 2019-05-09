@@ -200,6 +200,7 @@ body {
   color: #fff;
   font-family: 'Anonymous Pro', monospace;
   text-align: center;
+  margin-top: 2px;
 }
 
 .grid-link:hover {
