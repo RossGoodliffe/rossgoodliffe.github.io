@@ -148,6 +148,15 @@ body {
   height: auto;
 }
 
+.about-main a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.about-main a:hover {
+  text-decoration: underline;
+}
+
 .about-sidebar {
   float: right;
   width: 30%;
@@ -155,6 +164,8 @@ body {
   padding: 1rem;
   list-style: none;
   height: auto;
+
+  text-align: center;
 }
 
 .about-sidebar ul {
