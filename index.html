@@ -1,165 +1,275 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <!--Meta tag for formspree-->
-    <meta name="referrer" content="origin" />
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="styles/styles.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles/styles.css">
 
-    <title>Ross Goodliffe</title>
-</head>
+        <title>Ross Goodliffe</title>
+    </head>
+    <body>
+        <!-- Main Container -->
+        <div class="main-container">
+        
+            <!-- NavBar -->
+            <nav id="navbar" class="navbar">
+                <div class="container">
+                    <ul class="nav">
+                        <li><a href="#navbar">Home</a></li>
+                        <li><a href="#about-section">About</a></li>
+                        <li><a href="#project-section">Projects</a></li>
+                        <li><a href="#contact-section">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
 
-<body>
-    <div class="container">
-        <nav id="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+            <!-- Overlay for Home Section -->
+            <div class="overlay-keyboard">
 
-        <section id="home">
-            <div>
-                <h1 class="anim-typewriter">Ross Goodliffe</h1>
-            </div>
-            <div id="hidden">
-                <p>Junior Web Developer</p>
-            </div>
-            <div id="social">
-                <a href="https://github.com/RossGoodliffe" target="_blank"><img src="images/github-64.png" alt="github logo"></a>
-                <a href="https://www.linkedin.com/in/ross-goodliffe-89953a14b/" target="_blank"><img src="images/link1-64.png" alt="linked in logo"></a>
-                <a href="mailto:rossgoodliffe@gmail.com" target="_blank"><img src="images/email-64.png" alt="email me"></a>
-                <a href="https://drive.google.com/file/d/119Sprxsq8PLVNtH2bvx2MYrHMtf9qPKf/view?usp=sharing" target="_blank"><img src="images/pdf-64.png" alt="pdf logo"></a>
-            </div>
-        </section> <!-- End of Home Section-->
+                <!-- Home Section -->
+                <section id="home-section">
+                    
+                    <div class="container">
+                        <div class="title">
+                            <h1>Ross Goodliffe</h1>
+                        </div>
+                        <div id="hidden-title">
+                            <p>Junior Web Developer</p>
+                        </div>
+                        <div id="social">
+                                <a href="https://www.github.com/rossgoodliffe" target="blank" alt="github logo"><img src="media/github-64.png" alt="Github Logo"></a>
+                                <a href="mailto:rossgoodliffe@gmail.com" target="_blank"><img src="media/email1-64.png" alt="email me"></a>
+                                <a href="https://www.linkedin.com" target="blank" alt="linkedin logo"><img src="media/link-64.png" alt="Github Logo"></a>
+                                <a href="#" target="blank" alt="PDF logo"><img src="media/pdf-64.png" alt="CV"></a>
 
-        <div class="clr"></div>
-
-        <section id="about">
-            <div class="blank-space"></div>
-
-            <h1 id="about-head"></h1><!--Heading content populated from JS-->
-                <div class="about-container">
-                    <div class="about-image">
-                        <img src="images/ross-circle.png" alt="picture of Ross">
+                        </div>
                     </div>
-                    <div class="about-main">
-                        <p>I am interested in both front and back end web development and would ideally like a position that allows me to develop my skills in both areas.</p>
-                        <p>Having completed a HND in Computing (Web Technology and Security) I am now currently looking for a Junior Web Developer position.</p>
-                        <p>I enjoy learning new things and keeping up to date with new tech. Other hobbies include playing guitar, gaming and traveling.</p>
-                        <br />
-                        <p>If you'd like to get in contact please email me at <a href="mailto:hello@rossgoodliffe.com" target="_blank">hello@rossgoodliffe.com</a></p>
+                    
+                <!-- End of Home Section -->
+                </section>
+
+            <!-- End of Home Section Overlay -->
+            </div>
+
+            <!-- Overlay for About Section -->
+            <div class="overlay-fadedown">
+
+                <!-- About Section -->
+                <section id="about-section">
+
+                    <div class="container">
+
+                        <div class="about-header">
+                                <h3 id="greeting">Good Afternoon! My name is Ross Goodliffe</h3>
+                                <img src="media/ross-circle.png" alt="Image of me" class="about-img">
+                        </div>
+
+                        <div class="about-content">
+
+                            <div class="about-content-text">
+                                <p>I am interested in both front and back end web development and would ideally like a position that allows me to develop my skills in both areas.</p>
+                                <p>I enjoy learning new things and keeping up to date with new tech. Other hobbies include playing guitar, gaming and traveling.</p>
+                                <p>If you'd like to get in contact please email me at hello@rossgoodliffe.com</p>
+                            </div>
+
+                            <div class="about-content-lists">
+
+                                <div class="about-skills">
+                                    <h4>Skills In</h4>
+                                    <ul>
+                                        <li>HTML/CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>PHP - MVC</li>
+                                        <li>MySQL</li>
+                                        <li>Oracle DB</li>
+                                        <li>Java</li>
+                                        <li>OOP</li>
+                                        <li>Networking</li>
+                                    </ul>
+                                </div>
+
+                                <div class="about-exp">
+                                    <h4>Experimenting With</h4>
+                                    <ul>
+                                        <li>React</li>
+                                        <li>Django</li>
+                                        <li>Python</li>
+            
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    <!-- End of About Container -->
                     </div>
 
-                    <div class="about-sidebar">
-                        <h2>Skills</h2>
-                            <ul>
-                                <li>HTML/CSS</li>
-                                <li>Javascript</li>
-                                <li>PHP</li>
-                                <li>MySQL</li>
-                                <li>Java</li>
-                                <li>Networking</li>
-                                <li>Oracle Databases</li>
-                            </ul>
+                <!-- End of About Section -->
+                </section>
+
+            <!-- End of About Section Overlay -->
+            </div>
+
+            <!-- Projects Overlay -->
+            <div class="overlay-fadeup">
+
+                <!-- Projects Section -->
+                <section id="project-section">
+
+                    <div class="container">
+
+                        <h2 class="project-heading">My Projects</h2>
+
+                        <div class="project-container">
+
+                            <div class="project-item">
+                                <h3 class="project-title">Walk Eaze</h3>
+                                <p class="project-text">A dog walking service website displaying services they offer.</p>
+                                <p class="project-text">This site was built with React on the frontend will all the information regarding services hosted on Contentful.</p>
+                                <div class="project-link-container">
+                                    <a href="http://www.walkeaze.rossgoodliffe.com" target="blank" class="project-link">Live</a>
+                                    <a href="#" class="project-link">Code</a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 class="project-title">Spin the Bottle</h3>
+                                <p class="project-text">This is a fun spin the bottle type game to be played on a Mobile device</p>
+                                <p class="project-text">This site was built using HTML/CSS and JavaScript</p>
+                                <div class="project-link-container">
+                                    <a href="https://rossgoodliffe.github.io/spin-the-bottle/" target="blank" class="project-link">Live</a>
+                                    <a href="https://github.com/RossGoodliffe/spin-the-bottle" target="blank" class="project-link">Code</a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 class="project-title">Northampton News</h3>
+                                <p class="project-text">This is a news webiste that allows users to create accounts and comment on news articles created and managed through an admin panel.</p>
+                                <p class="project-text">This was an assignment given where the HTML/CSS was provided and I had to implement PHP alongside an MySQL database to create all the functionality of the site.</p>
+                                <div class="project-link-container">
+                                    <a href="http://www.northamptonnews.rossgoodliffe.com" target="blank" class="project-link">Live</a>
+                                    <a href="https://github.com/RossGoodliffe/Northampton-News" target="blank" class="project-link">Code</a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 class="project-title">RGPM.TV</h3>
+                                <p class="project-text">This is a portfolio site designed to showcase some of RGPM's work</p>
+                                <p class="project-text">This site was created using HTML, CSS and JS</p>
+                                <div class="project-link-container">
+                                    <a href="#" target="blank" class="project-link">Live</a>
+                                    <a href="#" class="project-link">Code</a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 class="project-title">Neon Writing</h3>
+                                <p class="project-text">Neon writing CSS effect with animations</p>
+                                <p class="project-text">This site was created using HTML and CSS</p>
+                                <div class="project-link-container">
+                                    <a href="https://rossgoodliffe.github.io/Neon-Writing/" target="blank" class="project-link">Live</a>
+                                    <a href="https://github.com/RossGoodliffe/Neon-Writing" target="blank" class="project-link">Code</a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 class="project-title">TCP & UDP Clients/Servers</h3>
+                                <p class="project-text">This was an assignment where I needed to create TCP & UDP clients/servers that were able to respond to eachother via the command line programmed in C# and Java</p>
+                                <div class="project-link-container">
+                                    <a href="https://github.com/RossGoodliffe/TCP-UDP" target="blank" class="project-link">Code</a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 class="project-title">Oracle PL/SQL database</h3>
+                                <p class="project-text">In this assignment I was given an ERD and had to write the SQL scripts and table spetifications to create the database to the required spetifications.</p>
+                                <div class="project-link-container">
+                                    <a href="https://github.com/RossGoodliffe/SQL-assignment" target="blank" class="project-link">Code</a>
+                                </div>
+                            </div>
+
+                        <!-- End of Projects Container -->
+                        </div>
+                    
+                    <!-- End of Container -->
                     </div>
-                </div> <!-- End of About Container-->       
-        </section> <!--End of About Section-->
 
-        <div class="clr"></div>
+                <!-- End of Projects Section -->
+                </section>
 
-        <section id="portfolio">
-            <h1>Portfolio</h1>
-            <div class="grid-container">
+            <!-- End of Projects Overlay -->
+            </div>
+
+            <!-- Contact Section -->
+            <section id="contact-section" class="overlay-fadedown">
                 
-                <div class="grid-area">
-                    <div class="grid-content">
-                        <h3>Northampton News</h3>    
-                        <p>This assignment was to take an already built webpage and implement PHP in order to display all the news articles with everything stored in a MySQL database, none of the HTML/CSS could be changed</p>
-                    </div>
-                    <a href="https://github.com/RossGoodliffe/Northampton-News">
-                        <div class="grid-link">
-                                <p>view code</p>
-                        </div>
-                    </a> 
-                    <a href="http://northamptonnews.rossgoodliffe.com" target="_blank">
-                        <div class="grid-link">
-                                <p>view website</p>
-                        </div>
-                    </a>    
-                </div>
+                <!-- Container -->
+                <div class="container">
 
-                <div class="grid-area">
-                    <div class="grid-content">
-                        <h3>TCP & UDP Clients/Servers</h3>    
-                        <p>In this assignment we needed to create TCP & UDP clients/servers that were able to respond to eachother via the command line programmed in C# and Java </p>
+                    <div class="contact-title">
+                        <h2>Contact Me</h2>
+                        <p>Please enter your details, contact information and message below</p>
                     </div>
 
-                    <a href="https://github.com/RossGoodliffe/TCP-UDP">
-                        <div class="grid-link">
-                            <p>view code</p>
-                        </div>
-                    </a>    
-                </div>
 
-                <div class="grid-area">
-                    <div class="grid-content">
-                        <h3>Portfolio</h3>    
-                        <p>This assignment was an introduction to HTML & CSS where we needed to build a portfolio page for ourselves</p>
+                    <!-- Form Container -->
+                    <div class="form-container">
+                        <form action="https://formspree.io/rossgoodliffe@gmail.com" method="POST">
+                            <div class="form-row">
+                                <div class="col-25">
+                                    <label for="fname">Name:</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-25">
+                                    <label>Mobile:</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="number" name="number" placeholder="Your number..">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-25">
+                                    <label>Email:</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="email" name="email" placeholder="Your email..">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-25">
+                                    <label>Message:</label>
+                                </div>
+                                <div class="col-75">
+                                    <!-- <input type="text" id="message" name="message" placeholder="Your Message.."> -->
+                                    <textarea name="message" id="message" cols="2" rows="3"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <input type="submit" value="Submit">
+                            </div>
+
+                        </form>
+                        
+                    <!-- End of Form Container -->
                     </div>
-                    <a href="https://github.com/RossGoodliffe/csy1018-assign1">
-                        <div class="grid-link">
-                            <p>view code</p>
-                        </div>
-                    </a>
-                    <a href="https://rossgoodliffe.github.io/csy1018-assign1/index.html" target="_blank">
-                        <div class="grid-link">
-                                <p>view website</p>
-                        </div>
-                    </a>    
-                </div>
 
-                <div class="grid-area">
-                    <div class="grid-content">
-                        <h3>Oracle Database</h3>    
-                            <p>In this assignment I was given an ERD and had to write the SQL scripts and table spetifications to create the database to the required spetifications.</p>
-                    </div>
-                    <a href="https://github.com/RossGoodliffe/SQL-assignment">
-                        <div class="grid-link">
-                            <p>view code</p>
-                        </div>
-                    </a>    
-                </div>
-            </div> <!--End of Grid Container-->
-        </section> <!--End of Portfolio Section-->
 
-        <div class="clr"></div>
 
-        <section id="contact">  
-            <div class="blank-space"></div>
-            <div class="contact-area">
-                <h1>Contact</h1>
-                    <form action="https://formspree.io/rossgoodliffe@gmail.com" method="POST">
-                            <label>First Name</label>
-                            <input type="text" name="fname" placeholder="First Name">
-                            <label>Surname</label>
-                            <input type="text" name="sname" placeholder="Surname">
-                            <label>Email Address</label>
-                            <input type="text" name="_replyto" placeholder="Email">
-                            <label>Message</label>
-                            <textarea class="contact-text" name="message" rows="3" cols="10" placeholder="Type your message here!"></textarea>
-                            <input class="contact-button" type="submit" value="Send" onclick="thankYou()">
-                            <input type="hidden" name="_next" value="rossgoodliffe.github.io#contact"/>                    
-                    </form>
+                <!-- End of Contact Section -->
+                </section>
+
+            <!-- End of Container -->
             </div>
-        </section> <!--End of Contact Section-->
 
-    </div> <!--End of Container-->
+        <!-- End of Main Container -->
+        </div>  
 
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="js/app.js"></script>
-</body>
+        <!-- JS Scripts -->
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>
